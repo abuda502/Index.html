@@ -1,0 +1,112 @@
+
+
+  
+  #image {
+    height: 100px;
+    width: 100px;
+    background: url("https://th.bing.com/th/id/R.8a001f9b1a84ee0bfbd420c08d6c576a?rik=vXmQNG%2bnjAFyYw&riu=http%3a%2f%2fwww.cbpbook.com%2fwp-content%2fuploads%2f2015%2f02%2fcasio-scientific-calculator-fx-100ms-original.jpg&ehk=bTw5JeA9NT1U0UlN2ZqTJq%2bREC7f8rCwP3lastWS4cs%3d&risl=&pid=ImgRaw&r=0");
+    background-size: 50px 50px;
+    
+  }
+  
+       body {
+           padding: 0;
+           margin: auto;
+           background-color: rgb(11, 59, 218);
+      }
+      #alignCenter {
+        text-align: center;
+    }
+    #alignCenter1 {
+        text-align: center;
+    }
+    #alignCenter2 {
+        text-align: center;
+    }
+    #alignCenter21 {
+        text-align: center;
+    }
+    #alignCenter3 {
+        text-align: center;
+    }
+    #alignCenter4 {
+        text-align: center;
+    }
+    #alignCenter5 {
+        text-align: center;
+    }
+    #alignCenter51 {
+        text-align: center;
+    }
+    #alignCenter52 {
+        text-align: center;
+    }
+    #alignCenter6{
+        text-align: right;
+    }
+    #alignCenter61{
+        text-align: right;
+    }
+    #alignCenter62{
+        text-align: right;
+    }
+    #alignCenter63{
+        text-align: right;
+    }
+    #alignCenter7 {
+        text-align: left;
+    }
+    #alignCenter8 {
+        text-align: left;
+    }#alignCenter9 {
+        text-align: left;
+    }#alignCenter10 {
+        text-align: left;
+    }
+#love {
+  background-color: rgb(223, 11, 4);
+}
+#love1 {
+    background-color: rgb(27, 231, 129);
+  }
+  #love2 {
+    background-color: rgb(12, 137, 187);
+  }
+  #love3 {
+    background-color: rgb(204, 90, 24);
+  }
+
+#test {
+    color: rgb(94, 13, 243);
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+   
+}
+#test1 {
+    color: rgb(43, 230, 6);
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    
+}
+#test2{
+    color: rgb(243, 13, 90);
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+   
+}
+#test3 {
+    color: rgb(13, 243, 13);
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    
+}
+#test {
+    color: rgb(19, 187, 230);
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+   
+}
+
+ 
+
+     
