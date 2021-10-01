@@ -9,6 +9,7 @@
 
   <link rel = "shortcut icon" href = "favicon.ico">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <script src="https://kit.fontawesome.com/f225150e15.js" crossorigin="anonymous"></script>
 
   <link  href="style.css" rel="stylesheet">
   
@@ -16,25 +17,26 @@
 </head>
 
 <body>
-  <form action="index.html" method="post"><div><h1 style = "text-align:center;" id="test" >Force Calculator</h1>
+  <p id = "image" ></p>
+  <form action="index.html" method="post"><div><h1 style = "text-align:center;" id="test" ><i class="fas fa-calculator"></i>Force Calculator<i class="fas fa-calculator"></i></h1>
     <P id="alignCenter" style="color:rgb(235, 136, 8);"><label for="massNum">Mass:</label><br><input type="text" id="massNum" 
-      style="font-size : 15px; width: 20%; height: 30px" name="Mass"  placeholder="Enter mass"></P>
-    <P id="alignCenter2" style="color:rgb(101, 14, 240);"><label for="AccNum">Acceleration:</label><br><input type="text" 
-      id="AccNum" style="font-size : 15px; width: 20%; height: 30px" name="Acceleration" 
+      style="font-size : 15px; width: 20%; height: 30px" name="massNum"  placeholder="Enter mass"></P>
+    <P id="alignCenter2" style="color:rgb(14, 240, 25);"><label for="AccNum">Acceleration:</label><br><input type="text" 
+      id="AccNum" style="font-size : 15px; width: 20%; height: 30px" name="AccNum" 
        placeholder="Enter acceleration" ></P>
       </div></form>
       <P id="alignCenter5" ><input type="button"  id = "love" 
         style="font-size : 20px; width: 20%; height: 30px"  value="Calculate" onclick= "forceCal();"></P>
         <p id="force"> </p>
 
-        <form action="index.html" method="post"><div><h1 style = "text-align:left;" id="test1" >Displacement Calculator</h1>
+        <form action="index.html" method="post"><div><h1 style = "text-align:left;" id="test1" ><i class="fas fa-calculator"></i>Displacement Calculator<i class="fas fa-calculator"></i></h1>
           <P id="alignCenter7" style="color:rgb(228, 133, 10);"><label for="initialVel">Initial Velocity:</label><br><input type="text" id="initialVel" 
-            style="font-size : 15px; width: 20%; height: 30px" name="initial_velocity"  placeholder="Enter Velocity"></P>
-          <P id="alignCenter8" style="color:rgb(101, 14, 240);"><label for="time">Time:</label><br><input type="text" 
+            style="font-size : 15px; width: 20%; height: 30px" name="initialVel"  placeholder="Enter Velocity"></P>
+          <P id="alignCenter8" style="color:rgb(13, 228, 181);"><label for="time">Time:</label><br><input type="text" 
             id="time" style="font-size : 15px; width: 20%; height: 30px" name="time" 
              placeholder="Enter time" ></P>
             <P id="alignCenter9" style="color:rgb(21, 240, 14);"><label for="AcNum">Acceleration:</label><br><input type="text" 
-              id="AcNum" style="font-size : 15px; width: 20%; height: 30px" name="Acceleration" 
+              id="AcNum" style="font-size : 15px; width: 20%; height: 30px" name="AcNum" 
                placeholder="Enter acceleration" ></P>
              
             </div></form>
@@ -42,14 +44,14 @@
               style="font-size : 20px; width: 20%; height: 30px"  value="Calculate" onclick= " displacement();"></P>
               <p id="displacement"> </p>
 
-              <form action="index.html" method="post"><div><h1 style = "text-align:right;" id="test2" >Quadratic Equation</h1>
+              <form action="index.html" method="post"><div><h1 style = "text-align:right;" id="test2" ><i class="fas fa-calculator"></i>Quadratic Equation<i class="fas fa-calculator"></i></h1>
                 <P id="alignCenter6" style="color:rgb(18, 224, 18);"><label for="oneSide">One Side:</label><br><input type="text" id="oneSide" 
-                  style="font-size : 15px; width: 20%; height: 30px" name="one_side"  placeholder="Enter one side"></P>
-                <P id="alignCenter61" style="color:rgb(101, 14, 240);"><label for="AnotherSide">Another Side:</label><br><input type="text" 
-                  id="AnotherSide" style="font-size : 15px; width: 20%; height: 30px" name="another" 
+                  style="font-size : 15px; width: 20%; height: 30px" name="oneSide"  placeholder="Enter one side"></P>
+                <P id="alignCenter61" style="color:rgb(16, 209, 64);"><label for="AnotherSide">Another Side:</label><br><input type="text" 
+                  id="AnotherSide" style="font-size : 15px; width: 20%; height: 30px" name="AnotherSide" 
                    placeholder="Enter another side" ></P>
                   <P id="alignCenter62" style="color:rgb(209, 148, 17);"><label for="otherSide">Other Side:</label><br><input type="text" 
-                    id="otherSide" style="font-size : 15px; width: 20%; height: 30px" name="lastSide" 
+                    id="otherSide" style="font-size : 15px; width: 20%; height: 30px" name="otherSide" 
                      placeholder="Enter other side" ></P>
                    
                   </div></form>
@@ -57,7 +59,7 @@
                     style="font-size : 20px; width: 20%; height: 30px"  value="Equate" onclick= "Quadratic();"></P>
                     <p id="Quad"> </p>
 
-                    <form action="index.html" method="post"><div><h1 style = "text-align:center;" id="test3" >Finance Calculator</h1>
+                    <form action="index.html" method="post"><div><h1 style = "text-align:center;" id="test3" ><i class="fas fa-calculator"></i>Finance Calculator<i class="fas fa-calculator"></i></h1>
                       <P id="alignCenter1" style="color:rgb(19, 190, 212);"><label for="PMT">Annuity Payment:</label><br><input type="text" id="PMT" 
                         style="font-size : 15px; width: 20%; height: 30px" name="PMT"  placeholder="Enter PMT"></P>
                       <P id="alignCenter21" style="color:rgb(238, 49, 106);"><label for="rate">Rate:</label><br><input type="text" 
